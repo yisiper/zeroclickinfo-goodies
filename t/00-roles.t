@@ -328,6 +328,7 @@ subtest 'Dates' => sub {
                 'in 2 years'        => '08 Oct 2016',
                 'a week ago'        => '01 Oct 2014',
                 'a month ago'       => '08 Sep 2014',
+                'in 2 days'         => '10 Oct 2014'
             },
         );
         foreach my $query_time (sort keys %time_strings) {
